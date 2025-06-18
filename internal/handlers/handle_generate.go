@@ -6,8 +6,8 @@ import (
 	"slices"
 
 	"github.com/agentio/atiquette/api/app/bsky"
+	"github.com/agentio/tokens/internal/bureau"
 	"github.com/agentio/tokens/internal/clients"
-	"github.com/agentio/tokens/pkg/bureau"
 )
 
 func GenerateHandler(w http.ResponseWriter, r *http.Request) {

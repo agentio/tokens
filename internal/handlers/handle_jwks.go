@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/agentio/tokens/pkg/bureau"
+	"github.com/agentio/tokens/internal/bureau"
 	"github.com/lestrrat-go/jwx/v3/jwk"
 )
 
