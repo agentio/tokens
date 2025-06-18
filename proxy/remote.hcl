@@ -1,4 +1,3 @@
-
 host "tokens.babu.dev" {
   name    = "Tokens"
   backend = "nomad:tokens"
@@ -7,4 +6,3 @@ host "tokens.babu.dev" {
     scopes = ["atproto"]
   }
 }
-
